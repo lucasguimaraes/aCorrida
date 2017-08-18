@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A corrida</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+	</style>
+
+
+</head>
+<body>
+	<h1 class="col-md-2 col-md-offset-5 text-center">La corrida</h1>
+
+
+	<div class="pista col-md-12">
+		<div id="cachorro">
+			<img id="cachorroStop" src="img/cachorroParado.png" style="width: 198px;">
+			<img id="cachorroRun" src="img/cachorro.gif" style="width: 198px;">
+		</div>
+
+		<div id="gato">
+			<img id="gatoStop" src="img/gatoParado.png" style="width: 198px;">
+			<img id="gatoRun" src="img/gato.gif" style="width: 198px;">
+		</div>
+			 <div id="teste"></div>
+			 <button id="correr" type="button" class="btn btn-success">Corra!</button>
+
+	</div>
+
+	<script	src="scripts/jquery-3.2.1.min.js"></script>
+	<script src="scripts/main.js"></script>
+	<script type="text/javascript">
+		$('#cachorroStop').show();
+		$('#cachorroRun').hide();
+		$('#gatoStop').show();
+		$('#gatoRun').hide();
+	</script>
+</body>
+</html>
